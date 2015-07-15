@@ -1,0 +1,119 @@
+2015/05/31 13:24:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('site')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/conta...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/site/contact
+HTTP_REFERER=http://localhost/web-app/site/site/page?view=about
+---
+2015/05/31 13:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mow".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('mow')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('mow')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mow/contac...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/mow/contact/
+---
+2015/05/31 13:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mow".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('mow')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('mow')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mow/contac...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/mow/contact/
+---
+2015/05/31 13:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mow".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('mow')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('mow')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mow/contac...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/mow/contact/
+---
+2015/05/31 14:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('gii')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('gii')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/gii
+---
+2015/05/31 14:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/index.php/gii
+---
+2015/05/31 14:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/index.php/gii
+---
+2015/05/31 14:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/index.php/gii
+---
+2015/05/31 14:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/index.php/gii/
+---
+2015/05/31 14:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('gii')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('gii')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/gii
+---
+2015/05/31 14:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/web-app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-app/gii
+---
+2015/06/02 13:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('gii')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('gii')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/web-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web-app/site/gii
+---
